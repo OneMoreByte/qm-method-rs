@@ -1,5 +1,5 @@
 # qm-method-rs
-===================
+
 ----------
 
 This is my implementation of the Quine-McCluskey Method in rust. It can currently support up to 52 terms and 2^52 m terms (obviously). It's a moderately inefficient and has only been tested with 4 terms
