@@ -15,7 +15,7 @@ It then expects a list of terms with comas seperating like sooo "1 ,4,5  ,7" As 
 
 ## TO RUN
 
-Get the compiler here -> [https://www.rust-lang.org/en-US/install.html] (https://www.rust-lang.org/en-US/install.html)
+Get the compiler here -> https://www.rust-lang.org/en-US/install.html
 
 Then go into the folder and run "cargo build --target=x86_64-pc-windows-msvc" (assuming you're on windows)
 just "cargo build" might work tooo
