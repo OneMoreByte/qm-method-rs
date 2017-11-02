@@ -1,0 +1,6 @@
+[package]
+name = "qm-method-rs"
+version = "0.1.0"
+authors = ["jsck <jack@jackhil.de>"]
+
+[dependencies]
