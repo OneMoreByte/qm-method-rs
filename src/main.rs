@@ -213,7 +213,7 @@ fn get_input_string() -> Option<String> {
 /// Error handeling!
 fn get_terms() -> i8 {
     let mut terms;
-    println!("How many terms?");
+    println!("How many varables?");
     let mut raw = get_input_string();
 
     while raw.is_none() {
@@ -235,10 +235,10 @@ fn get_terms() -> i8 {
 
     // Check input, if it's bad, run again for good input
     if terms > 52 {
-        println!("The max is 52 terms. Please enter a number lower than that.");
+        println!("The max is 52 varables. Please enter a number lower than that.");
         terms = get_terms();
     } else if terms < 2 {
-        print!("The minimum is 2 terms. You", );
+        print!("The minimum is 2 varables You", );
         if terms == 1 {
             println!(" don't really need to simplify a 1 term expression :P");
             terms = get_terms();
@@ -423,7 +423,7 @@ fn find_solution(bin: Vec<Vec<Term>>, terms: i8) {
     for t in done {
         print!("{0} ", e);
         print!("{0} ", t.pretty_term());
-        print!("{:?} ", (*t).m_terms);
+        //print!("{:?} ", (*t).m_terms);
 
         e = '+';
     }
